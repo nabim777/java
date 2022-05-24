@@ -1,0 +1,63 @@
+import java.util.*;
+import java.io.*;
+class movie 
+{ int ID;
+ String genre; String title;
+public void setdata(int ID, String genre, String title)
+{this.ID=ID;
+this.genre=genre;
+this.title=title;
+}
+public void display()
+{
+	System.out.println("ID:"+ ID+ "\nGenre:"+ genre + "\nTitle:" +title);
+}
+}
+
+class actor
+{
+int ID;
+String name;
+movie movieList[];
+public void setdata(int ID, String name, movie list[])
+{this.ID=ID;
+this.name=name;
+movieList=list;
+}
+}
+
+public class movieDriver
+{
+	public static void main(String args[]) throws IOException
+	{int i;
+	movie m[]= new movie[3];
+	for(i=0;i<3;i++)
+	{
+	InputStreamReader ins = new InputStreamReader(System.in);
+	BufferedReader areader = new BufferedReader(ins);
+	System.out.println("Enter movie ID:");
+	int id = Integer.parseInt(areader.readLine());
+	System.out.println("Enter genre of the movie:");
+	String genre = areader.readLine();
+	System.out.println("Enter title of the movie:");
+	String title = areader.readLine();
+	m[i] = new movie();
+	m[i].setdata(id,genre,title);
+	System.out.println("__________________________________________________________________________________________");
+   }
+	actor a1= new actor();
+	InputStreamReader ins = new InputStreamReader(System.in);
+	BufferedReader areader = new BufferedReader(ins);
+	System.out.println("Enter ID of actor:");
+	int id = Integer.parseInt(areader.readLine());
+	System.out.println("Enter name of actor:");
+	String name = areader.readLine();	
+	a1.setdata(id,name,m);
+	System.out.println("__________________________________________________________________________________________");
+	System.out.println("Actor:"+ a1.name);
+	System.out.println("list of movies:");
+    a1.movieList[0].display();
+	a1.movieList[1].display();
+	a1.movieList[2].display();
+	}
+}

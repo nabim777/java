@@ -1,0 +1,15 @@
+import java.io.*;
+public class bufferReader
+{
+public static void main(String args[])
+{   
+	InputStreamReader ins = new InputStreamReader(System.in);
+	BufferedReader reader = new BufferedReader(ins);
+	System.out.println("Enter a string");
+	String a =reader.readLine();
+    System.out.println("Enter a number");
+	int n = Integer.parseInt(reader.readLine());
+	System.out.println("Entered number" + n);
+	System.out.println("Entered string" + a);
+}
+}

@@ -1,0 +1,19 @@
+101,Mohamed Salah,1992-6-15,Egyptian,2000000.0,22,Forward
+102,Sadio Mane,1992-4-10,Senagalese,180000.0,11,Forward
+103,Roberto Firmino,1991-10-2,Brazillian,180000.0,9,Forward
+104,Alisson Becker,1992-10-2,Brazillian,150000.0,1,Goalkeeper
+105,Virgil van Dijk,1992-7-8,Dutch,180000.0,1,Defender
+106,Trent Alexander-Arnold,1998-10-7,English,72000.0,2,Defender
+107,Jordan Henderson,1990-6-17,English,140000.0,1,Midfielder
+108,Ederson Moraes,1993-8-17,Brazillain,100000.0,0,Goalkeeper
+109,Kevin De Bruyne,1991-6-28,Belgian,230000.0,6,Midfielder
+110,Ilkay Gundogan,1990-10-24,German,150000.0,13,Midfielder
+111,Raheem Sterling,1994-12-8,English,200000.0,10,Forward
+112,David De Gea,1990-11-7,Spanish,350000.0,0,Goalkeeper
+113,Paul Pogba,1993-3-15,French,290000.0,3,Midfileder
+114,Bruno Fernandes,1994-9-8,Portugese,100000.0,18,Midfielder
+115,Marcus Rashford,1997-10-31,English,180000.0,11,Forward
+116,Edouard Mendy,1992-3-1,Senegalese,52000.0,0,Goalkeeper
+117,N'golo Kante,1991-3-29,French,290000.0,0,Midfielder
+118,Mason Mount,1999-1-10,English,76000.0,6,Midfielder
+119,Antonio Rudiger,1993-3-3,German,100000.0,1,Defender
